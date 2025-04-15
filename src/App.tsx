@@ -1,6 +1,6 @@
 import Header from "./components/Header.tsx"
 
-function App() {
+export default function App() {
 
   return (
     <>
@@ -8,5 +8,3 @@ function App() {
     </>
   )
 }
-
-export default App
