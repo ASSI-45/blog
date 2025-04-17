@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <>
-      <div className="h-screen flex flex-col justify-between">
+      <div className="h-screen flex flex-col ">
           <Header></Header>
         <div className="bg-zinc-70 mb-auto justify-self-center px-15 py-5 text-left text-xl text-white font-inter">
           <Routes>
