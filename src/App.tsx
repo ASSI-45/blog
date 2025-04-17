@@ -8,9 +8,9 @@ export default function App() {
 
   return (
     <>
-      <div className="h-dvh">
+      <div className="h-screen flex flex-col justify-between">
           <Header></Header>
-        <div className="bg-zinc-70">
+        <div className="bg-zinc-70 mb-auto">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="about" element={<AboutPage />} />
