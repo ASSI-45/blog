@@ -10,7 +10,7 @@ export default function App() {
     <>
       <div className="h-screen flex flex-col justify-between">
           <Header></Header>
-        <div className="bg-zinc-70 mb-auto">
+        <div className="bg-zinc-70 mb-auto justify-self-center px-15 py-5 text-left text-xl text-white font-inter">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="about" element={<AboutPage />} />

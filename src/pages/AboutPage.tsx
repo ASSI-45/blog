@@ -2,7 +2,6 @@
 export default function AboutPage() {
   return (
     <>
-      <div className="justify-self-center px-25 py-10 text-left text-xl text-white">
         <h1 className="text-4xl">Hi!</h1>
         <br />
         <p>
@@ -353,7 +352,6 @@ ffdsa
 ffdsa
       
         </p>
-      </div> 
     </>
   )
 }
