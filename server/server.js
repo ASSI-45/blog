@@ -8,7 +8,7 @@ app.get("/*name", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/dist/index.html"))
 });
 
-app.listen(8080, () => {
-  console.log("Server started add http://localhost:8080");
+app.listen(3000, () => {
+  console.log("Server started add http://localhost:3000");
 });
 

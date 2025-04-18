@@ -1,5 +1,10 @@
 
-export default function Card(props) {
+type CardProps = {
+  title: string
+  disc: string
+}
+
+export default function Card(props: CardProps) {
   return(
     <>
       <div className="m-2 border-b-6 rounded-3xl border-zinc-900 hover:border-purple-950 shadow-xl/30">
