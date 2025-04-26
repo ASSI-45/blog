@@ -3,15 +3,15 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 export default function RaspberryPiPage() {
   return(
     <>
-    {/* container box */}
-      <div className="flex">
-      {/* anchor link box */}
-      <div className="static h-min mt-7 mr-5 border-b-6 rounded-3xl border-zinc-900 shadow-xl/30">
-        <div className="static h-full p-5 px-7 rounded-2xl border-solid border-6 border-zinc-700 bg-zinc-900 text-white text-nowrap font-inter"> 
-          <AnchorLink href="#what">What is a pi</AnchorLink>
-          <AnchorLink href="#about"><p>about my pi</p></AnchorLink>
-        </div>
-      </div> 
+      {/* container box */}
+      <div className="flex sm:flex-row flex-col">
+        {/* anchor link box */}
+        <div className="static h-min mt-7 mr-5 mb-5 border-b-6 rounded-3xl border-zinc-900 shadow-xl/30">
+          <div className="static h-full p-5 px-7 rounded-2xl border-solid border-6 border-zinc-700 bg-zinc-900 text-white text-nowrap text-center font-inter"> 
+            <AnchorLink href="#what">What is a pi</AnchorLink>
+            <AnchorLink href="#about"><p>about my pi</p></AnchorLink>
+          </div>
+        </div> 
         {/* article */}
         <div>
           <h1 className="text-4xl"id="what">What is a pi</h1>
