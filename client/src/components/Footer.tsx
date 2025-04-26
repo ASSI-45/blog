@@ -8,7 +8,7 @@ export default function Footer() {
           {/* <h1 className="text-xl">ASSI-45©</h1> */}
           <div className="flex justify-center">
             <a href="https://github.com/ASSI-45" className="flex justify-center"><IoLogoGithub size="70" color="white"></IoLogoGithub></a>
-            <a href="http://linkedin.com"><CiLinkedin size="70" color="white"/></a>  
+            <a href="https://www.linkedin.com/in/aslan-umarov-254966269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><CiLinkedin size="70" color="white"/></a>  
           </div> 
       </div>
     </>
