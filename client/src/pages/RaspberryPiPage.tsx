@@ -14,7 +14,7 @@ export default function RaspberryPiPage() {
         </div> 
         {/* article */}
         <div>
-          <h1 className="text-4xl"id="what">What is a pi</h1>
+          <h1 className="text-4xl text-indigo-600"id="what">What is a pi</h1>
           <br />
           <p>
             What is a Raspberry Pi 5?
@@ -24,7 +24,7 @@ export default function RaspberryPiPage() {
             Designed with both hobbyists and professionals in mind, the Raspberry Pi 5 is ideal for learning programming, building DIY electronics projects, creating media centers, or even serving as a lightweight desktop computer. Its compact size, affordability, and versatility continue to make it one of the most popular tools in the maker and tech community.
           </p>
           <br />
-          <h1 className="text-4xl">About my pi</h1>
+          <h1 className="text-4xl text-indigo-600">About my pi</h1>
           <br />
             <h1 className="text-2xl" id="about">Specs</h1>
             <br />

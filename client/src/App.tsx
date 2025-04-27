@@ -4,6 +4,7 @@ import Footer from "./components/Footer.tsx"
 import AboutPage from "./pages/AboutPage.tsx"
 import HomePage from "./pages/HomePage.tsx"
 import RaspberryPiPage from "./pages/RaspberryPiPage.tsx"
+import BooksPage from "./pages/BooksPage.tsx"
 
 export default function App() {
 
@@ -16,6 +17,7 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="about" element={<AboutPage />} />
             <Route path="blog-raspberry-pi-5" element={<RaspberryPiPage />} />
+            <Route path="blog-books" element={<BooksPage />}/>
           </Routes>
         </div>
         <Footer></Footer>
