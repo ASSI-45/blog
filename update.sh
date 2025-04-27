@@ -1,4 +1,4 @@
-git pull
+# git pull origin main
 
 sudo docker stop assi-45:1.0.0
 
