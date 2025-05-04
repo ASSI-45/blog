@@ -19,6 +19,7 @@ export default function RaspberryPiPage() {
           <p>
             <ul>
               <li>☑️ Practical SQL: A Beginner's Guide to Storytelling with Data by Anthony DeBarros</li>
+              <li>☑️ Grokking Algorithms by Aditya Y Bhargava</li>
             </ul>
           </p>
           <br />
@@ -34,7 +35,7 @@ export default function RaspberryPiPage() {
           <h1 className="text-4xl text-indigo-600"id="shelf">On the shelf</h1>
           <p>
             <ul>
-              <li>* Pragmatic Programmer 20 year Anniversary edition by by Andy Hunt and Dave Thomas</li>
+              <li>* Pragmatic Programmer 20 year Anniversary edition by Andy Hunt and Dave Thomas</li>
               <li>* Clean code by Robert Cecil Martin</li>
             </ul>
           </p>
