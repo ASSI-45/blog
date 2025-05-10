@@ -27,7 +27,6 @@ export default function RaspberryPiPage() {
           <h1 className="text-4xl text-indigo-600">About my pi</h1>
           <br />
             <h1 className="text-2xl" id="about">Specs</h1>
-            <br />
             <ul>
               <li>* model 5</li>
               <li>* 8gb ram</li>
@@ -36,7 +35,7 @@ export default function RaspberryPiPage() {
           <br />
           <p>
             Currently set it up as a server for this website, using Cloudflare Tunnels and Docker.
-            I also have a Postgres database running with Docker.
+            In parallel using a Postgres database running with Docker.
            
           </p>
         </div>
